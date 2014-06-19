@@ -1,3 +1,3 @@
 
-mvn install:install-file -Dmaven.repo.local=../releases -Dfile=libGoogleAnalyticsServices.jar -Dsources=libGoogleAnalyticsServices.jar -DgroupId=com.google -DartifactId=google-analytic-services -Dversion=1.0.0 -DpomFile=default.pom -Dpackaging=jar -DcreateChecksum=true
+mvn install:install-file -Dmaven.repo.local=../releases -Dfile=libGoogleAnalyticsServices.jar -Dsources=google-play-services.jar -DgroupId=com.google.android.gms -DartifactId=google-play-services -Dversion=1.0.0 -Dpackaging=jar -DcreateChecksum=true
 
